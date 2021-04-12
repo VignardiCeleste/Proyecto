@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ /* parrafos */
+  .paragraph-1{
+     
+      font-family: fantasy;
+      color: dimgrey;
+      font-size: 20px;
+      font-weight:lighter;
+      text-align: center;
+      text-transform: uppercase;
+      
+      line-height: normal;
+      margin: 25px 50px 75px 100px;
+      padding: 20px;
+      
+
+  }
+
+ 
+  
+
+  
+  .paragraph-3{
+    font-family: fantasy;
+      color: rgb(69, 73, 73);
+      font-size: 20px;
+      text-align: start;
+      padding: 25px 50px 75px 100px;
+
+
+  }
+
+.title-1{
+   display: flex;
+   justify-content:center;
+   font-size: 30px;
+   color:black;
+   background-color: rgb(1, 172, 202);
+   padding: 20px;
+   margin: 0px;
+}
+.titulos-prod{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 219, 246) ;
+  font-size: 50PX;
+  margin: 0PX;
+  padding: 20px;
+  border: solid;
+
+
+}
+.div-button{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(190, 222, 255) ;
+  font-size: 40px;
+  padding: 80px;
+  
+}
+
+.button{
+  display: flex;
+  background-color: rgb(255, 130, 224) ;
+  border: solid 3px; 
+  
+  
+}
+
+  /* imagenes */ 
+  
+
+  .photo-inicio , .photo-tops ,.photo-jeans , .photo-shorts , .photo-ves , .photo-cam{
+   
+    /* display: flex ;
+    align-items: center;
+    column-count: auto auto auto; */
+    width: 300px ;
+    height: 400px;
+    /* margin: 10px 15px 10px 15px; */
+    color: rgb(3, 52, 102);
+    border-style: dotted dashed solid double; 
+    margin: 100px;
+    
+    
+    
+
+
+  }
+ .section-photoI , .section-photoJ , .section-photoS , .section-photoT , .section-photoV , .section-photoC {
+ 
+    display: flex;
+    justify-content:center;
+    padding: 30px;
+    background-color: rgb(190, 222, 255) ;
+  }  
+   .div-photo{
+     display: grid;
+     grid-template-columns: auto auto auto ; 
+  } 
+
+  .photo-prod{
+
+    width:  200px;
+    height: 200px;
+    margin: 10px 15px 10px 15px;
+
+  }
+
+.nombre-1I {
+  display: flex;
+  justify-content: center;
+  margin: -70px;
+  font-size: 30px;
+  
+
+}
+.talles{
+  display: flex;
+ width: 50px;
+ height: 40px;
+  
+  
+}
+.I-compras{
+  padding: -20px;
+  width: 50px;
+  height: 50px;
+}
+.I-compras:hover{
+  transform: rotate(45deg);
+  transition: 1s;
+
+}
+.I-corazon{
+  padding: -20px;
+  width: 50px;
+  height: 50px;
+}
+.I-corazon:hover{
+  background-image: linear-gradient(to left, rgb(62, 196, 196) , rgb(250, 140, 235));
+
+}
+
+
+.sectionlogo{
+   display:inline-block; 
+   position:absolute;
+   top:-20px;
+   padding: 40px 10px; 
+  
+   
+   
+}
+
+.logo{
+  display: inline-block;
+  
+  
+}
+
+.section-photoPRODUCTOS{
+
+  display: flex;
+  justify-content: space-between; 
+  
+  background-color: gray;
+}
+
+
+.section-photoPRODUCTOS{
+
+  display: grid;
+  grid-template-columns: auto  auto auto auto; 
+  background-color: gray;
+} 
+.section-enyen  {
+  display: grid;
+  grid-template-columns: auto ;
+  background-color: rgb(190, 222, 255) ;
+ 
+  
+}
+
+.div-form {
+  font-size: 20px;
+  margin: 20px;
+  
+}
+ .div-email {
+   display: inline;
+  font-size: 20px;
+  margin: 20px;
+  
+  
+ }
+ .div-mensaje{
+  display: block;
+ font-size: 20px;
+ 
+}
+.formulario textarea{
+  resize: none;
+}
+
+
+
+ .ccom{
+  font-family: initial;
+  font-size:40px ;
+  text-align: center;
+  border:midnightblue;
+  margin: 30px ;
+  border-style: dotted dashed solid double;
+
+  
+ }
+  
+.enyen, .dev{
+
+  font-family: unset;
+  font-size:30px ;
+  text-align: center;
+  color:red;
+  margin: 30px;
+}
+
+
+
+ h1 {
+   
+   padding: 10px 12px 5px 20px;
+  
+
+ } 
+
+ 
+ 
+ .menuflex{
+ 
+ display: flex;
+ justify-content: center;
+ background-color: rgb(187, 194, 202);
+ color: black;
+ padding: 15px 0;
+ border-style: dotted;
+ 
+ 
+ }
+
+ .menu{
+  /*  display: flex;
+   width: 1000px;
+   justify-content: space-between; */
+   font-size: 30px;
+/*     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   list-style-type: none; */ 
+   
+   
+  
+ } 
+
+
+ a:link, a:visited, a:active {
+  
+  text-decoration: none;
+  color: black;
+  
+  
+ }
+
+
+
+ 
+
+
+ .loremss{
+   display: grid;
+   grid-template-columns: auto  AUTO;
+   padding: 50px;
+  
+  
+ }
+
+
+ 
+ .facebook , .instagram , .I-telefono , .icono-m {
+   display: inline;
+  font-size: 30px;
+   width:50px ;
+  height:50px ;
+  margin: 10px;
+  transition: 1s;
+  
+  
+ }
+
+
+
+/* .menuflex:hover{
+  background-image: linear-gradient(rgb(183, 218, 231) ,blue );
+  
+} */
+ .facebook:hover , .instagram:hover, .I-telefono:hover , .icono-m:hover{
+  
+  height: 200px;
+   width: 200px;
+  padding: 20px;
+  background-color:tomato;
+
+ /*  animation-name: insta;
+  animation-duration: 10s;
+  
+  transform: translate(50px, 50px);
+  transition: all 1s ;  */
+
+ }
+ .instagram:hover{
+  animation-name: insta;
+  animation-duration: 10s;
+  
+  transform: translate(50px, 50px);
+  transition: all 1s ; 
+
+}
+
+.formulario{
+ 
+  background-color: rgb(190, 222, 255) ;
+  width: 100%;
+  }
+
+.nomyape textarea{
+  resize: none;
+  width: 200px;
+  height: 100px;
+}
+
+.icono-envios{
+  display: flex;
+  height: 50px;
+  width: 50px;
+  
+}
+
+
+
+/* footer */
+
+.container,  .container-2 , .container-3{
+ 
+
+ background: rgb(224, 216, 216);
+ width: 100%;
+ height: auto;
+ font-size: 20px;
+ 
+
+}
+
+.redessocialesF , .navegacionF , .contactoF{
+  color: black;
+  font-size: 30px;
+  margin-top: 30px;
+  
+}
+ 
+.footer{
+  display: grid;
+   grid-template-columns: auto  auto auto;
+   
+   
+   
+}

@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.paragraph-3 {
+  font-family: fantasy;
+  color: #454949;
+  font-size: 20px;
+  text-align: start;
+  padding: 25px 50px 75px 100px;
+}
+
+.title-1 {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  color: black;
+  background-color: #01acca;
+  padding: 20px;
+  margin: 0px;
+}
+
+.titulos-prod {
+  display: flex;
+  justify-content: center;
+  background-color: #ffdbf6;
+  font-size: 50PX;
+  margin: 0PX;
+  padding: 20px;
+  border: solid;
+}
+
+.enyen, .dev {
+  font-family: unset;
+  font-size: 30px;
+  text-align: center;
+  color: red;
+  margin: 30px;
+}
+
+.div-button {
+  display: flex;
+  justify-content: center;
+  background-color: #bedeff;
+  font-size: 40px;
+  padding: 80px;
+}
+
+.button {
+  display: flex;
+  background-color: #ff82e0;
+  border: solid 3px;
+}
+
+.photo-inicio, .photo-tops, .photo-jeans, .photo-shorts, .photo-ves, .photo-cam {
+  width: 300px;
+  height: 400px;
+  color: #033466;
+  border-style: dotted dashed solid double;
+  margin: 100px;
+}
+
+.section-photoI, .section-photoJ, .section-photoS, .section-photoT, .section-photoV, .section-photoC {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  background-color: #bedeff;
+}
+
+.div-photo {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.photo-prod {
+  width: 200px;
+  height: 200px;
+  margin: 10px 15px 10px 15px;
+}
+
+.nombre-1I {
+  display: flex;
+  justify-content: center;
+  margin: -70px;
+  font-size: 30px;
+}
+
+.talles {
+  display: flex;
+  width: 50px;
+  height: 40px;
+}
+
+.I-compras {
+  padding: -20px;
+  width: 50px;
+  height: 50px;
+}
+
+.I-compras:hover {
+  transform: rotate(45deg);
+  transition: 1s;
+}
+
+.I-corazon {
+  padding: -20px;
+  width: 50px;
+  height: 50px;
+}
+
+.I-corazon:hover {
+  background-image: linear-gradient(to left, #3ec4c4, #fa8ceb);
+}
+
+.facebook, .instagram, .I-telefono, .icono-m {
+  display: inline;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  transition: 1s;
+}
+
+.facebook:hover, .instagram:hover, .I-telefono:hover, .icono-m:hover {
+  height: 200px;
+  width: 200px;
+  padding: 20px;
+  background-color: tomato;
+}
+
+.instagram:hover {
+  animation-name: insta;
+  animation-duration: 10s;
+  transform: translate(50px, 50px);
+  transition: all 1s;
+}
+
+.icono-envios {
+  display: flex;
+  height: 50px;
+  width: 50px;
+}
+
+.sectionlogo {
+  display: inline-block;
+  position: absolute;
+  top: -20px;
+  padding: 40px 10px;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.section-photoPRODUCTOS {
+  display: flex;
+  justify-content: space-between;
+  background-color: gray;
+}
+
+.section-photoPRODUCTOS {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: gray;
+}
+
+.section-enyen {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.div-form {
+  font-size: 20px;
+  margin: 20px;
+}
+
+.div-email {
+  display: inline;
+  font-size: 20px;
+  margin: 20px;
+}
+
+.div-mensaje {
+  display: block;
+  font-size: 20px;
+}
+
+.formulario textarea {
+  resize: none;
+}
+
+.ccom {
+  font-family: initial;
+  font-size: 40px;
+  text-align: center;
+  border: midnightblue;
+  margin: 30px;
+  border-style: dotted dashed solid double;
+}
+
+.formulario {
+  background-color: #bedeff;
+  width: 100%;
+}
+
+/*   .nomyape textarea{
+    resize: none;
+    width: 200px;
+    height: 100px;
+  } */
+.menuflex {
+  display: flex;
+  justify-content: center;
+  background-color: #e9f3ff;
+  color: black;
+  padding: 15px 0;
+  border-style: dotted;
+}
+
+.menu {
+  font-size: 30px;
+}
+
+.container, .container-2, .container-3 {
+  background: #e0d8d8;
+  width: 100%;
+  height: auto;
+  font-size: 20px;
+}
+
+.redessocialesF, .navegacionF, .contactoF {
+  color: black;
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+a:link, a:visited, a:active {
+  text-decoration: none;
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */

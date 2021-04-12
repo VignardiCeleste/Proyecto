@@ -1,0 +1,16 @@
+.container,  .container-2 , .container-3{
+    background: rgb(224, 216, 216);
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+   }
+   .redessocialesF , .navegacionF , .contactoF{
+     color: black;
+     font-size: 30px;
+     margin-top: 30px;
+   }
+   .footer{
+     display: grid;
+      grid-template-columns: auto  auto auto;
+   }
+   

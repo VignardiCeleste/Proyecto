@@ -1,0 +1,22 @@
+.photo-inicio , .photo-tops ,.photo-jeans , .photo-shorts , .photo-ves , .photo-cam{
+    width: 300px ;
+    height: 400px;
+    color: rgb(3, 52, 102);
+    border-style: dotted dashed solid double; 
+    margin: 100px;
+  }
+ .section-photoI , .section-photoJ , .section-photoS , .section-photoT , .section-photoV , .section-photoC {
+    display: flex;
+    justify-content:center;
+    padding: 30px;
+    background-color: rgb(190, 222, 255) ;
+  }  
+   .div-photo{
+     display: grid;
+     grid-template-columns: auto auto auto ; 
+  } 
+  .photo-prod{
+    width:  200px;
+    height: 200px;
+    margin: 10px 15px 10px 15px;
+  }

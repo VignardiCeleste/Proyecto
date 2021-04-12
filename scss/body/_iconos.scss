@@ -1,0 +1,53 @@
+.nombre-1I {
+    display: flex;
+    justify-content: center;
+    margin: -70px;
+    font-size: 30px;
+  }
+  .talles{
+    display: flex;
+   width: 50px;
+   height: 40px;
+  }
+  .I-compras{
+    padding: -20px;
+    width: 50px;
+    height: 50px;
+  }
+  .I-compras:hover{
+    transform: rotate(45deg);
+    transition: 1s;
+  }
+  .I-corazon{
+    padding: -20px;
+    width: 50px;
+    height: 50px;
+  }
+  .I-corazon:hover{
+    background-image: linear-gradient(to left, rgb(62, 196, 196) , rgb(250, 140, 235));
+  }
+ .facebook , .instagram , .I-telefono , .icono-m {
+    display: inline;
+   font-size: 30px;
+    width:50px ;
+   height:50px ;
+   margin: 10px;
+   transition: 1s;
+  }
+  .facebook:hover , .instagram:hover, .I-telefono:hover , .icono-m:hover{
+    height: 200px;
+     width: 200px;
+    padding: 20px;
+    background-color:tomato;
+   }
+   .instagram:hover{
+    animation-name: insta;
+    animation-duration: 10s;
+    transform: translate(50px, 50px);
+    transition: all 1s ; 
+  }
+  .icono-envios{
+    display: flex;
+    height: 50px;
+    width: 50px;
+  }
