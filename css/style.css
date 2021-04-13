@@ -222,22 +222,42 @@
   font-size: 30px;
 }
 
-.container, .container-2, .container-3 {
-  background: #e0d8d8;
+.footer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.footer .container {
+  background-color: #e0d8d8;
   width: 100%;
   height: auto;
   font-size: 20px;
 }
-
-.redessocialesF, .navegacionF, .contactoF {
+.footer .div-footer1 .redessocialesF {
   color: black;
   font-size: 30px;
   margin-top: 30px;
 }
-
-.footer {
-  display: grid;
-  grid-template-columns: auto auto auto;
+.footer .container-2 {
+  background-color: #e0d8d8;
+  width: 100%;
+  height: auto;
+  font-size: 20px;
+}
+.footer .container-2 .div-footer2 .navegacionF {
+  color: black;
+  font-size: 30px;
+  margin-top: 30px;
+}
+.footer .container-3 {
+  background-color: #e0d8d8;
+  width: 100%;
+  height: auto;
+  font-size: 20px;
+}
+.footer .container-3 .div-footer3 .contactoF {
+  color: black;
+  font-size: 30px;
+  margin-top: 30px;
 }
 
 a:link, a:visited, a:active {

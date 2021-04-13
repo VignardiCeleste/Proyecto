@@ -1,16 +1,60 @@
-.container,  .container-2 , .container-3{
-    background: rgb(224, 216, 216);
-    width: 100%;
-    height: auto;
-    font-size: 20px;
-   }
-   .redessocialesF , .navegacionF , .contactoF{
-     color: black;
-     font-size: 30px;
-     margin-top: 30px;
-   }
-   .footer{
-     display: grid;
+$fondo-F:rgb(224, 216, 216);
+$letra-F: black;
+$ancho-F: 120%;
+
+.footer{
+      display: grid;
       grid-template-columns: auto  auto auto;
-   }
-   
+
+  .container{
+      background-color: $fondo-F;
+      width: $ancho-F - 20%;
+      height: auto;
+      font-size: 20px;
+    }
+       .div-footer1{
+          .redessocialesF{
+              color: $letra-F;
+              font-size: 30px;
+              margin-top: 30px;
+            }
+
+            
+        }
+
+    .container-2{
+        background-color: $fondo-F ;
+        width: $ancho-F - 20%;
+        height: auto;
+        font-size: 20px;
+
+        .div-footer2{
+            .navegacionF{
+                color: $letra-F;
+                font-size: 30px;
+                margin-top: 30px;
+            }
+
+
+        }
+    }
+
+    .container-3{
+            background-color: $fondo-F;
+            width: $ancho-F - 20%;
+            height: auto;
+            font-size: 20px;
+
+
+            .div-footer3{
+
+                .contactoF{
+                    color: $letra-F;
+                    font-size: 30px;
+                    margin-top: 30px;
+                }
+
+            }
+        }
+    }
+
